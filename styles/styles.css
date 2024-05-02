@@ -89,4 +89,33 @@ circle:nth-child(2){
     position:relative;
     top: -450px;
     margin-right: 80px;
+    background-color: gray;
+}
+
+.piedepagina{
+    margin: 20px 30px;
+    font-size: 26px;
+}
+
+.h4pie{
+    display: flex;
+    float: right;
+    position: relative;
+    top: -296px;
+    left: 200px;
+
+}
+.iconos{
+display:flex;
+position: relative;
+float:right;
+left: 380px;
+bottom: 220px;
+gap: 50px;
+
+    i{
+        font-size: 40px;
+    }
+
+
 }
