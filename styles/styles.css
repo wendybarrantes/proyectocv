@@ -80,5 +80,13 @@ circle:nth-child(2){
 }
 .experienciacuerpo{
     margin: 20px 30px;
-    font-size: 22px;
+    font-size: 26px;
+}
+
+.imagen{
+    display: flex;
+    float: right;
+    position:relative;
+    top: -450px;
+    margin-right: 80px;
 }
