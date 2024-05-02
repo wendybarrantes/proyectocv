@@ -1,0 +1,92 @@
+body{
+    border: 2px solid #000;
+    }
+    
+body{
+    background-color: #F1F1F1;
+}
+
+
+h1{font-size: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    margin-top: 100px;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -25px;
+}
+
+.informaciondecontacto{
+    display: flex;
+    gap: 200px;
+    margin-left: 360px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.phone {
+    display:flex;    
+}
+.numero{
+    position:relative;
+   left: 5px;
+   bottom: 18px;
+}
+.email{
+    display: flex;
+}
+.correo{
+    position:relative;
+    left: 5px;
+    bottom: 18px;
+}
+.location {
+    display:flex;
+}
+.ubicacion{
+    position:relative;
+    left: 5px;
+    bottom: 18px;
+}
+.informacionpersonal{
+    text-align:left;
+    margin: 20px 30px; 
+}
+.habilidadespersonales{
+    display:flex;
+    gap:150px;
+    justify-content: center;
+}
+circle{
+    stroke: #aaa;
+    stroke-width: 10;
+    stroke-dasharray: var(--porcentaje)100;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+    fill: none;
+}
+circle:nth-child(2){
+    stroke: grey;
+    stroke-dasharray: var(--porcentaje)100;
+}
+.experiencialaboral{
+    text-align:left;
+    margin: 20px 30px; 
+    margin-top: 50px; 
+    margin-bottom: 45px;  
+}
+.experienciacuerpo{
+    margin: 20px 30px;
+    font-size: 26px;
+}
+
+.imagen{
+    display: flex;
+    float: right;
+    position:relative;
+    top: -450px;
+    margin-right: 80px;
+}
